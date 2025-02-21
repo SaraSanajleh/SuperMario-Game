@@ -1,0 +1,12 @@
+import random
+number=random.randint(0,100)
+f=1
+while f:
+    x=eval(input("enter your guess: "))
+    if x>number:
+        print("high")
+    elif x<number:
+        print("low")
+    else:
+        print("correct the number = ",number)
+        f=0

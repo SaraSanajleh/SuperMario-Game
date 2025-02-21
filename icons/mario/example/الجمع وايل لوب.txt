@@ -1,0 +1,8 @@
+f=1
+sum=0
+while f:
+    number=eval(input("please enter number: "))
+    sum+=number
+    if number==0:
+        f=0
+print("sum is : ",sum)

@@ -1,0 +1,17 @@
+mmatrix=[]
+r=eval(input("please enter the row: "))
+c=eval(input("please enter the colomn: "))
+for i in range(r):
+    matrix.append([])
+    for j in range(c):
+        value=eval(input())
+        matrix[i].append(value)
+print(matrix)
+
+sum=0
+for i in matrix:
+    for j in i:
+        print(j,end=" ")
+        sum+=j
+print(sum)
+
